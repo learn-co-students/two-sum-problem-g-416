@@ -32,13 +32,8 @@ const merge = (left, right) => {
   while (left.length && right.length) {
     console.log(left);
     if (left[0] < right[0]) {
-      // console.log(left[0])
-      // console.log(sorted)
-      // console.log(left.shift())
       sorted.push(left.shift());
     } else {
-      // console.log(sorted)
-      // console.log(right.shift())
       sorted.push(right.shift());
     }
   }
